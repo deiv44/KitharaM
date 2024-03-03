@@ -13,16 +13,13 @@
         android:theme="@style/Theme.KitharaM"
         tools:targetApi="31">
         <activity
-            android:name=".Frontauth"
+            android:name=".Auth.LoginTr"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".TutorActivity"
             android:exported="false" />
         <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Splashkit"
+            android:name=".UserActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +28,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Frontauth"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Splashkit"
             android:exported="false" />
     </application>
 

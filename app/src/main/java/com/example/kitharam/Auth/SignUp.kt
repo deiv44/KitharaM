@@ -1,7 +1,8 @@
-package com.example.kitharam
+package com.example.kitharam.Auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kitharam.R
 
 class SignUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
