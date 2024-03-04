@@ -14,7 +14,19 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class SignUp : AppCompatActivity() {
-   ""
+    private lateinit var binding: ActivitySignUpBinding
+
+    private lateinit var etUsername: EditText
+    private lateinit var etEmail: EditText
+    private lateinit var etPassword: EditText
+    private lateinit var etConfirmation: EditText
+    private lateinit var btnRegister: Button
+    private lateinit var btnlogin: Button
+
+    private var username: String = ""
+    private var email: String = ""
+    private var password: String = ""
+    private var confirmation: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,19 +68,7 @@ class SignUp : AppCompatActivity() {
 //    private fun callRegisterApi(username: String, email: String, password: String) {
 //        val call: Call<RegisterModelResponse> = APIClient.getInstance().api.registerApi(username, email, password)
 //        call.enqueue(object : Callback<RegisterModelResponse> {
-//            override fun onResponse(cal private lateinit var binding: ActivitySignUpBinding
-//
-//    private lateinit var etUsername: EditText
-//    private lateinit var etEmail: EditText
-//    private lateinit var etPassword: EditText
-//    private lateinit var etConfirmation: EditText
-//    private lateinit var btnRegister: Button
-//    private lateinit var btnlogin: Button
-//
-//    private var username: String = ""
-//    private var email: String = ""
-//    private var password: String = ""
-//    private var confirmation: String = l: Call<RegisterModelResponse>, response: Response<RegisterModelResponse>) {
+//            override fun onResponse(call: Call<RegisterModelResponse>, response: Response<RegisterModelResponse>) {
 //                if (response.isSuccessful) {
 //                    Toast.makeText(this@Signup, "success", Toast.LENGTH_SHORT).show()
 //                    startActivity(Intent(this@Signup, Login::class.java))
