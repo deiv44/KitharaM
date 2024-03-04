@@ -23,7 +23,7 @@ class LoginTr : AppCompatActivity() {
         }
 
         signupbttn.setOnClickListener {
-            val intent = Intent(this, SignUp::class.java)
+            val intent = Intent(this, SignupTr::class.java)
             startActivity(intent)
         }
 

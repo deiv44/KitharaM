@@ -26,7 +26,7 @@ class Frontauth : AppCompatActivity() {
             startActivity(intent1)
         }
         signupbttn.setOnClickListener{
-            val intent = Intent(this, SignUp::class.java)
+            val intent = Intent(this, Register::class.java)
             startActivity(intent)
         }
     }
