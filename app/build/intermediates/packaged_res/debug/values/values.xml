@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="lavender">#8692f7</color>
+    <color name="my_primary">#E1C1410C</color>
+    <color name="my_secondary">#A36161</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="splash">#191111</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="already_have_account">Already have account?</string>
+    <string name="app_name">KitharaM</string>
+    <string name="dhach">Don\'t have Account?</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="kithara">Kithara</string>
+    <string name="log_instudent">As Student</string>
+    <string name="log_intutor">As Tutor</string>
+    <string name="login">Login</string>
+    <string name="loginpssword">Password</string>
+    <string name="next">Next</string>
+    <string name="password">Password</string>
+    <string name="previous">Previous</string>
+    <string name="psastiris">*******</string>
+    <string name="re_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="remember_me">Remember me</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="username">Username</string>
+    <string name="welcome">Welcome</string>
+    <string name="yrinfos">Please login with your account as Student</string>
+    <string name="yrinfot">Please login with your account as tutor</string>
+    <style name="Base.Theme.KitharaM" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/my_secondary</item>
+        <item name="colorSecondaryVariant">@color/my_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/my_primary</item>
+        
+    </style>
+    <style name="Theme.KitharaM" parent="Base.Theme.KitharaM"/>
+</resources>
