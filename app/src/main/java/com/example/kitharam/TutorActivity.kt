@@ -17,12 +17,10 @@ class TutorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTutorBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        replaceFragment(HomeUserFragment())
+        replaceFragment(HomeTutorFragment())
 
 
         binding.bottomNavigationuser.setOnItemSelectedListener {
-
-
             when(it.itemId){
                 R.id.trhome->replaceFragment (HomeTutorFragment())
                 R.id.trtool->replaceFragment (ToolTutorFragment())

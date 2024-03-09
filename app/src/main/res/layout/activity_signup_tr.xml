@@ -95,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
-                android:text="Confirm password"
+                android:text="@string/Conpass"
                 android:textStyle="bold" />
             <EditText
                 android:id="@+id/etConpassword"
@@ -103,10 +103,8 @@
                 android:layout_height="50dp"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
-                android:hint="Confirm Password"
+                android:hint="@string/Conpass"
                 android:inputType="textPassword" />
-
-
 
             <View
                 android:layout_width="wrap_content"

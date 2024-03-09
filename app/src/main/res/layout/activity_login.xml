@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -96,14 +97,11 @@
                     android:text="@string/remember_me" />
 
                 <TextView
-                    android:id="@+id/forgot"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:clickable="true"
-                    android:text="@string/forgot_password"
-                    android:layout_alignWithParentIfMissing="true"/>
+                    android:text="@string/forgot_password" />
 
             </RelativeLayout>
 

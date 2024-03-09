@@ -30,4 +30,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="already_have_account">Already have account?</string>
+    <string name="fpwrd">Forgot Password</string>
+    <string name="getmail">Enter you email</string>
+    <string name="Conpass">Confirm Password</string>
 </resources>

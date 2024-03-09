@@ -10,7 +10,7 @@ tools:context=".Fragment.HomeTutorFragment">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="379dp"
+        android:layout_width="350dp"
         android:layout_height="182dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
