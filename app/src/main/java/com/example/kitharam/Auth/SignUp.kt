@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.kitharam.Frontauth
 import com.example.kitharam.R
 import com.example.kitharam.UserActivity
+import com.example.kitharam.api.DefaultResponse
 import com.example.kitharam.api.RetrofitClient
 import com.example.kitharam.api.User
 import com.example.kitharam.databinding.ActivitySignUpBinding
@@ -64,49 +65,34 @@ class SignUp : AppCompatActivity() {
                     return@setOnClickListener
                 }
 
-                val user = User(name = name, email = email, password = password)
-                val apiService = RetrofitClient.getService(this)
-                apiService.register(user).enqueue(object : Callback<User> {
-                    override fun onResponse(call: Call<User>, response: Response<User>) {
-                        if (response.isSuccessful) {
-                            val registeredUser = response.body()
-                            if (registeredUser != null) {
-                                val intent = Intent(this@SignUp, Frontauth::class.java)
-                                startActivity(intent)
-                                finish()
-                                // Registration successful, handle accordingly
+                RetrofitClient.instance.register(name, email, password, cpassword)
+                    .enqueue(object : Callback<DefaultResponse> {
+                        override fun onResponse(
+                            call: Call<DefaultResponse>,
+                            response: Response<DefaultResponse>
+                        ) {
+                            if (response.isSuccessful) {
                                 Toast.makeText(
                                     applicationContext,
-                                    "Registration Successful",
-                                    Toast.LENGTH_SHORT
+                                    response.body()?.message,
+                                    Toast.LENGTH_LONG
                                 ).show()
                             } else {
-                                // Null response body, handle error
-                                Toast.makeText(
-                                    applicationContext,
-                                    "Registration failed: Null response body",
-                                    Toast.LENGTH_SHORT
-                                ).show()
+                                val errorMessage = response.errorBody()?.string() ?: "Unknown error"
+                                Toast.makeText(applicationContext, errorMessage, Toast.LENGTH_LONG)
+                                    .show()
                             }
-                        } else {
-                            // Registration failed, handle error
+                        }
+
+                        override fun onFailure(call: Call<DefaultResponse>, t: Throwable) {
                             Toast.makeText(
                                 applicationContext,
-                                "Registration failed: ${response.message()}",
-                                Toast.LENGTH_SHORT
+                                "Email Already Exist",
+                                Toast.LENGTH_LONG
                             ).show()
                         }
-                    }
 
-                    override fun onFailure(call: Call<User>, t: Throwable) {
-                        // Request failed, handle error
-                        Toast.makeText(
-                            applicationContext,
-                            "Error: ${t.message}",
-                            Toast.LENGTH_SHORT
-                        ).show()
-                    }
-                })
+                    })
             }
         }
     }

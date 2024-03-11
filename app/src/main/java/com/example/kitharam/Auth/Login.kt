@@ -7,8 +7,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.kitharam.Fragment.HomeUserFragment
 import com.example.kitharam.R
 import com.example.kitharam.UserActivity
+import com.example.kitharam.api.DefaultResponse
 import com.example.kitharam.api.LoginResponse
 import com.example.kitharam.api.RetrofitClient
 import com.example.kitharam.api.User
@@ -38,53 +40,53 @@ class Login : AppCompatActivity() {
         login = findViewById(R.id.Login)
         signup = findViewById(R.id.signup)
 
-        binding.Login.setOnClickListener {
-            val email = binding.etemail.text.toString().trim()
-            val password = binding.etpassword.text.toString().trim()
-            loginUser(email, password)
-        }
-
         binding.signup.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
-    }
+        binding.Login.setOnClickListener {
+            val email = binding.etemail.text.toString().trim()
+            val password = binding.etpassword.text.toString().trim()
 
-    private fun loginUser(email: String, password: String) {
-        val user = User(email = email, password = password)
-        val apiService = RetrofitClient.getService(this)
+            if (email.isEmpty()) {
+                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
 
-        apiService.login(user).enqueue(object : Callback<LoginResponse> {
-            override fun onResponse(call: Call<LoginResponse>, response: Response<LoginResponse>) {
-                val User = response.body()
-                if (response.isSuccessful && User != null) {
-                    val token = User.token
-                    RetrofitClient.saveToken(this@Login, token)
-                    val intent = Intent(this@Login, UserActivity::class.java)
-                    startActivity(intent)
-                    finish()
-//                    saveUserData(loginResponse.user)
+            if (password.isEmpty()) {
+                Toast.makeText(this, "Please enter a password", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            RetrofitClient.instance.login(email, password).enqueue(object : Callback<LoginResponse>{
+                override fun onResponse(
+                    call: Call<LoginResponse>,
+                    response: Response<LoginResponse>
+                ){
+                    if(!response.body()?.error!!){
+                        val intent = Intent(applicationContext, HomeUserFragment::class.java)
+                        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+
+                        startActivity(intent)
+                    }else{
+                        Toast.makeText(
+                            applicationContext,
+                            response.body()?.message,
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+
+                override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
                     Toast.makeText(
                         applicationContext,
-                        "Login Successful",
-                        Toast.LENGTH_SHORT
-                    ).show()
-                } else {
-                    Toast.makeText(
-                        applicationContext,
-                        "Login Failed",
-                        Toast.LENGTH_SHORT
+                        "Something went wrong.",
+                        Toast.LENGTH_LONG
                     ).show()
                 }
-            }
 
-            override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
-                Toast.makeText(
-                    applicationContext,
-                    "Please try again.",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
-        })
+            })
+
+        }
     }
 }

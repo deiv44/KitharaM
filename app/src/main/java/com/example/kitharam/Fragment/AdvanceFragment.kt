@@ -16,14 +16,14 @@ class AdvanceFragment: Fragment(){
         return inflater.inflate(R.layout.fragment_advance, container, false)
     }
 
-        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-            super.onViewCreated(view, savedInstanceState)
-
-            val backButton = view.findViewById<Button>(R.id.backbtn3)
-
-            backButton.setOnClickListener {
-                requireActivity().onBackPressed()
-            }
-        }
+//        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+//            super.onViewCreated(view, savedInstanceState)
+//
+////            val backButton = view.findViewById<Button>(R.id.backbtn3)
+//
+//            backButton.setOnClickListener {
+//                requireActivity().onBackPressed()
+//            }
+//        }
 
 }
