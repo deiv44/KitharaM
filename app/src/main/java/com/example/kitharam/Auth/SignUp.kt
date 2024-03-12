@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kitharam.Frontauth
 import com.example.kitharam.R
-import com.example.kitharam.UserActivity
 import com.example.kitharam.api.DefaultResponse
 import com.example.kitharam.api.RetrofitClient
 import com.example.kitharam.api.User
@@ -18,7 +17,7 @@ import com.example.kitharam.databinding.ActivitySignUpBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Retrofit
+
 
 class SignUp : AppCompatActivity() {
 

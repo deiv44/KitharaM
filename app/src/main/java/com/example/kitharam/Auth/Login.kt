@@ -1,6 +1,5 @@
 package com.example.kitharam.Auth
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,39 +13,35 @@ import com.example.kitharam.api.DefaultResponse
 import com.example.kitharam.api.LoginResponse
 import com.example.kitharam.api.RetrofitClient
 import com.example.kitharam.api.User
-import com.example.kitharam.databinding.ActivityLoginBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 class Login : AppCompatActivity() {
 
-    private lateinit var binding: ActivityLoginBinding
-
-    private lateinit var etusername: EditText
     private lateinit var etemail: EditText
     private lateinit var etpassword: EditText
-    private lateinit var login: Button
-    private lateinit var signup: Button
+    private lateinit var btnlogin: Button
+    private lateinit var btnsignup: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_login)
 
-        etusername = findViewById(R.id.etusername)
         etemail = findViewById(R.id.etemail)
         etpassword = findViewById(R.id.etpassword)
-        login = findViewById(R.id.Login)
-        signup = findViewById(R.id.signup)
+        btnlogin = findViewById(R.id.login)
+        btnsignup = findViewById(R.id.signup)
 
-        binding.signup.setOnClickListener {
+        btnsignup.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
-        binding.Login.setOnClickListener {
-            val email = binding.etemail.text.toString().trim()
-            val password = binding.etpassword.text.toString().trim()
+
+        btnlogin.setOnClickListener {
+
+            val email = etemail.text.toString().trim()
+            val password = etpassword.text.toString().trim()
 
             if (email.isEmpty()) {
                 Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
@@ -61,12 +56,15 @@ class Login : AppCompatActivity() {
             RetrofitClient.instance.login(email, password).enqueue(object : Callback<LoginResponse>{
                 override fun onResponse(
                     call: Call<LoginResponse>,
-                    response: Response<LoginResponse>
-                ){
-                    if(!response.body()?.error!!){
-                        val intent = Intent(applicationContext, HomeUserFragment::class.java)
-                        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    response: Response<LoginResponse>){
 
+                    if(response.isSuccessful) {
+                            Toast.makeText(
+                                applicationContext,
+                                response.body()?.message,
+                                Toast.LENGTH_LONG
+                            ).show()
+                        val intent = Intent(applicationContext, UserActivity::class.java)
                         startActivity(intent)
                     }else{
                         Toast.makeText(
@@ -86,7 +84,6 @@ class Login : AppCompatActivity() {
                 }
 
             })
-
         }
     }
 }
