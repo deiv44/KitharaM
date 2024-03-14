@@ -104,8 +104,8 @@
                 android:id="@+id/etConpassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:maxLength="25"
                 android:autofillHints="Password"
+                android:maxLength="25"
                 android:drawableEnd="@drawable/eye_password"
                 android:hint="@string/Conpass"
                 android:inputType="textPassword" />

@@ -83,7 +83,7 @@
                 android:maxLength="25"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
 
             <RelativeLayout
@@ -102,7 +102,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:text="@string/forgot_password" />
+                    android:text="@string/forgot_password"
+                    tools:ignore="RelativeOverlap" />
 
             </RelativeLayout>
 
