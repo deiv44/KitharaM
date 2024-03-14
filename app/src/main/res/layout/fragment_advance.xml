@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance1"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance1a"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance1b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance2"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
         <ImageView
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance3"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -111,7 +111,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance3a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance3b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance3c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance4"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance4a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -165,7 +165,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance4b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -174,7 +174,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -184,7 +184,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5a"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -194,7 +194,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5b"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -204,7 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -213,7 +213,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -222,7 +222,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -231,7 +231,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance5f"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -248,7 +248,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -257,7 +257,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/advance_6b"
@@ -265,7 +265,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -274,7 +274,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -283,7 +283,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -292,7 +292,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance6e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -319,7 +319,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance7"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -328,7 +328,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance7a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -337,7 +337,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance7b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -346,7 +346,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/advance7c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 

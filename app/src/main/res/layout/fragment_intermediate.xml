@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
         <TextView
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate_sub"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate2"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate3f"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -144,7 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate4"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -163,7 +163,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate5"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate6"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -182,7 +182,7 @@
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate6a"
             android:textAlignment="gravity"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -199,7 +199,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -217,7 +217,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -226,7 +226,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -235,7 +235,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -244,7 +244,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate7e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -253,7 +253,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -269,7 +269,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -278,7 +278,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -287,7 +287,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -296,7 +296,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -305,7 +305,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -321,7 +321,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate8f"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -330,7 +330,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -340,7 +340,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -350,7 +350,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -360,7 +360,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -370,7 +370,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -380,7 +380,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -390,7 +390,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9f"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -400,7 +400,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate9g"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -409,7 +409,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_10a"
@@ -417,7 +417,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_10b"
@@ -425,7 +425,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_10c"
@@ -433,7 +433,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10c"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_10d"
@@ -441,7 +441,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10d"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_10e"
@@ -449,7 +449,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate10e"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
         <TextView
             android:id="@+id/intermediatetx_11"
@@ -457,7 +457,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate11"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -466,7 +466,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate12"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -475,7 +475,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate12a"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <TextView
@@ -484,10 +484,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:text="@string/intermediate12b"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
-
-
 
 
 

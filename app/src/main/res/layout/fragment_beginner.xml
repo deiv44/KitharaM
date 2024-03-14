@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner1"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -50,7 +50,7 @@
             android:layout_marginBottom="10dp"
             android:text="@string/beginner2"
             android:textAlignment="gravity"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
         <ImageView
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner3"
             android:id="@+id/beginnertx_3"
-            android:textSize="20dp">
+            android:textSize="20sp">
         </TextView>
 
 
@@ -82,7 +82,7 @@
             android:layout_height="match_parent"
             android:text="@string/beginner4"
             android:id="@+id/beginnertx_4"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner5"
             android:id="@+id/beginnertx_5"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner6"
             android:id="@+id/beginnertx_6"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner7"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner7a"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -136,7 +136,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner7b"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner7c"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
         <TextView
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner7d"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -166,7 +166,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner9"
             android:id="@+id/beginnertx_9"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -182,7 +182,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner10"
             android:id="@+id/beginnertx_10"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -198,7 +198,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner11"
             android:id="@+id/beginnertx_11"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -214,7 +214,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner12"
             android:id="@+id/beginnertx_12"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -231,7 +231,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner13"
             android:id="@+id/beginnertx_13"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="15dp">
         </TextView>
 
@@ -240,7 +240,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginnersub_13"
             android:id="@+id/beginnersubtx_13"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="15dp">
         </TextView>
 
@@ -250,7 +250,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginner14"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -267,7 +267,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="@string/beginnersub_14"
-            android:textSize="20dp">
+            android:textSize="20sp">
 
         </TextView>
 
@@ -276,7 +276,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner15"
             android:id="@+id/beginnertx_15"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -285,7 +285,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner16"
             android:id="@+id/beginnertx_16"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -294,7 +294,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner17"
             android:id="@+id/beginnertx_17"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -303,7 +303,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginnersub_17"
             android:id="@+id/beginnersubtx_17"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -312,7 +312,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner18"
             android:id="@+id/beginnertx_18"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -321,7 +321,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginnersub_18"
             android:id="@+id/beginnersubtx_18"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -330,7 +330,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner19"
             android:id="@+id/beginnertx_19"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -339,7 +339,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner20"
             android:id="@+id/beginnertx_20"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -348,7 +348,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner21"
             android:id="@+id/beginnertx_21"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
@@ -366,7 +366,7 @@
             android:layout_height="wrap_content"
             android:text="@string/beginner22"
             android:id="@+id/beginnertx_22"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="10dp">
         </TextView>
 
