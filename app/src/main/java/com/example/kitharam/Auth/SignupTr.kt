@@ -27,11 +27,6 @@ class SignupTr : AppCompatActivity() {
     private lateinit var btnSignUptr: Button
     private lateinit var btnlogin: Button
 
-    private var username: String = ""
-    private var email: String = ""
-    private var password: String = ""
-    private var confirmation: String = ""
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding =ActivitySignupTrBinding.inflate(layoutInflater)
@@ -66,7 +61,7 @@ class SignupTr : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            RetrofitClient.instance.register(name, email, password, cpassword)
+            RetrofitClient.instance.registertr(name, email, password, cpassword)
                 .enqueue(object : Callback<DefaultResponse> {
                     override fun onResponse(
                         call: Call<DefaultResponse>,

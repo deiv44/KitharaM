@@ -57,7 +57,7 @@ class LoginTr : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            RetrofitClient.instance.login(email, password).enqueue(object :
+            RetrofitClient.instance.logintr(email, password).enqueue(object :
                 Callback<LoginResponse> {
                 override fun onResponse(
                     call: Call<LoginResponse>,

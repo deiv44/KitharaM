@@ -23,4 +23,20 @@ interface ApiService {
         @Field("email")email:String,
         @Field("password")password:String
     ): Call<LoginResponse>
+
+    @FormUrlEncoded
+    @POST("api/tutor/register")
+    fun registertr(
+        @Field("name")name:String,
+        @Field("email")email:String,
+        @Field("password")password:String,
+        @Field("cpassword")cpassword:String
+    ): Call<DefaultResponse>
+
+    @FormUrlEncoded
+    @POST("api/tutor/login")
+    fun logintr(
+        @Field("email")email:String,
+        @Field("password")password:String
+    ): Call<LoginResponse>
 }
