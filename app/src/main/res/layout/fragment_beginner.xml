@@ -13,7 +13,8 @@
         android:layout_height="84dp"
         android:src="@drawable/backbtn_foreground"
         android:background="@color/white"
-        android:contentDescription="back"/>
+        android:contentDescription="back"
+        tools:ignore="HardcodedText" />
 
 
     <ScrollView
