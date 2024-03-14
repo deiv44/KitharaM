@@ -659,5 +659,8 @@ The <b>minor blues scale</b>, a key element in blues music, features a flattened
     <string name="advance7c" tools:ignore="StringEscaping">
 Blues scales are utilized in soloing, improvisation, and melodies to provide a bluesy character and increase expressiveness through subtle bends in the "blue notes."
     </string>
+    <string name="offer">Offer</string>
+    <string name="user_sign_up">User Sign-up</string>
+    <string name="tutor_sign_up">Tutor Sign_up</string>
 
 </resources>

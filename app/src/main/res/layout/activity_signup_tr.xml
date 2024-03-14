@@ -13,7 +13,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up"
+        android:text="@string/tutor_sign_up"
         android:textSize="36sp"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -46,15 +46,18 @@
                 android:text="@string/username"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/etusername"
-                android:layout_width="355dp"
-                android:layout_height="50dp"
-                android:height="50dp"
-                android:maxLength="25"
-                android:autofillHints="emailAddress"
-                android:hint="@string/username"
-                android:inputType="textEmailAddress" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etusername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName"
+                    android:maxLength="100"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -63,15 +66,18 @@
                 android:text="@string/email_address"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/etemail"
-                android:layout_width="355dp"
-                android:layout_height="50dp"
-                android:height="50dp"
-                android:maxLength="100"
-                android:autofillHints="emailAddress"
-                android:hint="@string/example_gmail_com"
-                android:inputType="textEmailAddress" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/example_gmail_com"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="100"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="wrap_content"
@@ -84,31 +90,42 @@
                 android:text="@string/password"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/etpassword"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:autofillHints="Password"
-                android:maxLength="25"
-                android:drawableEnd="@drawable/eye_password"
-                android:hint="Password"
-                android:inputType="textPassword" />
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLength="25" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.7"
-                android:text="@string/Conpass"
+                android:text="Confirm password"
                 android:textStyle="bold" />
-            <EditText
-                android:id="@+id/etConpassword"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:autofillHints="Password"
-                android:maxLength="25"
-                android:drawableEnd="@drawable/eye_password"
-                android:hint="@string/Conpass"
-                android:inputType="textPassword" />
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etConpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Conpass"
+                    android:inputType="textPassword"
+                    android:maxLength="25" />
+            </com.google.android.material.textfield.TextInputLayout>
 
             <View
                 android:layout_width="wrap_content"
