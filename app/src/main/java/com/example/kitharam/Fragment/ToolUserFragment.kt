@@ -1,5 +1,6 @@
 package com.example.kitharam.Fragment
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import android.media.AudioManager
 import android.media.SoundPool
 import android.os.Build
 import android.os.Handler
+import android.os.Looper
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
@@ -30,25 +32,27 @@ class ToolUserFragment : Fragment() {
         }
     }
 
+    @SuppressLint("ObsoleteSdkInt")
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val rootView = inflater.inflate(R.layout.fragment_tool_user, container, false)
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        soundPool = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             val attributes = AudioAttributes.Builder()
                 .setUsage(AudioAttributes.USAGE_MEDIA)
                 .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
                 .build()
-            soundPool = SoundPool.Builder()
+            SoundPool.Builder()
                 .setMaxStreams(1)
                 .setAudioAttributes(attributes)
                 .build()
         } else {
-            soundPool = SoundPool(1, AudioManager.STREAM_MUSIC, 0)
+            @Suppress("DEPRECATION")
+            SoundPool(1, AudioManager.STREAM_MUSIC, 0)
         }
 
         tickSoundId = soundPool.load(requireContext(), R.raw.tick_sound, 1)
 
-        handler = Handler()
+        handler = Handler(Looper.getMainLooper())
 
         val tempoSeekBar = rootView.findViewById<SeekBar>(R.id.tempoSeekBar)
         tempoSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
