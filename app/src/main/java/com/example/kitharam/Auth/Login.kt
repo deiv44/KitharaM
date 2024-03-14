@@ -59,13 +59,15 @@ class Login : AppCompatActivity() {
                     response: Response<LoginResponse>){
 
                     if(response.isSuccessful) {
-                            Toast.makeText(
-                                applicationContext,
-                                response.body()?.message,
-                                Toast.LENGTH_LONG
-                            ).show()
+                        Toast.makeText(
+                            applicationContext,
+                            response.body()?.message,
+                            Toast.LENGTH_LONG
+                        ).show()
                         val intent = Intent(applicationContext, UserActivity::class.java)
                         startActivity(intent)
+
+
                     }else{
                         Toast.makeText(
                             applicationContext,
