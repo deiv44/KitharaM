@@ -80,7 +80,6 @@ class LoginTr : AppCompatActivity() {
                         ).show()
                     }
                 }
-
                 override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
                     Toast.makeText(
                         applicationContext,
