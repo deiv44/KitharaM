@@ -1,5 +1,6 @@
 package com.example.kitharam.Fragment
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.kitharam.R
 
 
@@ -14,29 +17,35 @@ import com.example.kitharam.R
 class HomeTutorFragment : Fragment() {
 
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        val view = inflater.inflate(R.layout.fragment_home_tutor, container, false)
-        val beginButton =  view.findViewById<Button>(R.id.btnbeg)
-        val intermediateButton =  view.findViewById<Button>(R.id.btninter)
-        val advanceButton =  view.findViewById<Button>(R.id.btnadv)
+    @SuppressLint("MissingInflatedId")
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val rootView = inflater.inflate(R.layout.fragment_home_tutor, container, false)
 
-        beginButton.setOnClickListener{
-            val intent = Intent(activity, BeginnerFragment::class.java)
-            startActivity(intent)
-        }
+        val recyclerView: RecyclerView = rootView.findViewById(R.id.RecyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-        intermediateButton.setOnClickListener{
-            val intent = Intent(activity, IntermediateFragment::class.java)
-            startActivity(intent)
+        val data = listOf(
+            ("Beginner"),
+            ("Intermediate"),
+            ("Advanced"),
+        ) // Sample data
+        val adapter = Adapter(data) { category ->
+            // Handle item click here, e.g., navigate to another fragment based on the category
+            val fragment = when (category) {
+                "beginner" -> BeginnerFragment()
+                "intermediate" -> IntermediateFragment()
+                "advanced" -> AdvanceFragment()
+                else -> null
+            }
+            fragment?.let {
+                requireActivity().supportFragmentManager.beginTransaction()
+                    .replace(R.id.frameUser, it)
+                    .addToBackStack(null)
+                    .commit()
+            }
         }
+        recyclerView.adapter = adapter
 
-        advanceButton.setOnClickListener{
-            val intent = Intent(activity, AdvanceFragment::class.java)
-            startActivity(intent)
-        }
-        return view
+        return rootView
     }
 }

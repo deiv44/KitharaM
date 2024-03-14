@@ -19,8 +19,6 @@ class IntermediateFragment: Fragment(){
 
         val backButton = view.findViewById<Button>(R.id.backbtn2)
 
-        backButton.setOnClickListener {
-            requireActivity().onBackPressed()
-        }
+        backButton.setOnClickListener { requireActivity() }
     }
 }
