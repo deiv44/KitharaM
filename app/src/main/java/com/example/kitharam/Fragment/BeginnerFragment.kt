@@ -15,13 +15,13 @@ class BeginnerFragment: Fragment(){
         savedInstanceState: Bundle?): View? {
          return inflater.inflate(R.layout.fragment_beginner, container, false)
     }
-//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        super.onViewCreated(view, savedInstanceState)
-//
-//        val backButton = view.findViewById<Button>(R.id.backbtn)
-//
-//        backButton.setOnClickListener {
-//            requireActivity().onBackPressed()
-//        }
-//    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val backButton = view.findViewById<Button>(R.id.backbtn)
+
+        backButton.setOnClickListener {
+            requireActivity().onBackPressed()
+        }
+    }
 }

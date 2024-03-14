@@ -7,378 +7,378 @@
     tools:context=".Fragment.BeginnerFragment">
 
 
-<!--    <ImageButton-->
-<!--        android:id="@+id/backbtn"-->
-<!--        android:layout_width="84dp"-->
-<!--        android:layout_height="84dp"-->
-<!--        android:src="@drawable/backbtn_foreground"-->
-<!--        android:background="@color/white"-->
-<!--        android:contentDescription="back"/>-->
-
-
-<!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_below="@+id/backbtn">-->
-
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical">-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner1"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/acs">-->
-<!--        </ImageView>-->
-
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_2"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner2"-->
-<!--            android:textAlignment="gravity"-->
-<!--            android:textSize="20dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/elec">-->
-<!--        </ImageView>-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner3"-->
-<!--            android:id="@+id/beginnertx_3"-->
-<!--            android:textSize="20dp">-->
-<!--        </TextView>-->
-
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="203dp"-->
-<!--            android:scaleType="fitStart"-->
-<!--            android:src="@drawable/strings">-->
-
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="@string/beginner4"-->
-<!--            android:id="@+id/beginnertx_4"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner5"-->
-<!--            android:id="@+id/beginnertx_5"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner6"-->
-<!--            android:id="@+id/beginnertx_6"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="250dp"-->
-<!--            android:src="@drawable/rhyt">-->
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_7"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner7"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_7a"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner7a"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_7b"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner7b"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_7c"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner7c"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_7d"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner7d"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner9"-->
-<!--            android:id="@+id/beginnertx_9"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/brhyte"-->
-<!--            android:scaleType="centerInside">-->
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner10"-->
-<!--            android:id="@+id/beginnertx_10"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="250dp"-->
-<!--            android:src="@drawable/brebeat"-->
-<!--            android:scaleType="centerInside">-->
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner11"-->
-<!--            android:id="@+id/beginnertx_11"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="330dp"-->
-<!--            android:src="@drawable/notes"-->
-<!--            android:scaleType="centerInside">-->
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner12"-->
-<!--            android:id="@+id/beginnertx_12"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="280dp"-->
-<!--            android:src="@drawable/mustheo"-->
-<!--            android:scaleType="centerInside">-->
-<!--        </ImageView>-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner13"-->
-<!--            android:id="@+id/beginnertx_13"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="15dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginnersub_13"-->
-<!--            android:id="@+id/beginnersubtx_13"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="15dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnertx_14"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginner14"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="310dp"-->
-<!--            android:src="@drawable/musalp"-->
-<!--            android:scaleType="centerInside">-->
-<!--        </ImageView>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/beginnersubtx_14"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="10dp"-->
-<!--            android:text="@string/beginnersub_14"-->
-<!--            android:textSize="20dp">-->
-
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner15"-->
-<!--            android:id="@+id/beginnertx_15"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner16"-->
-<!--            android:id="@+id/beginnertx_16"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner17"-->
-<!--            android:id="@+id/beginnertx_17"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginnersub_17"-->
-<!--            android:id="@+id/beginnersubtx_17"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner18"-->
-<!--            android:id="@+id/beginnertx_18"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginnersub_18"-->
-<!--            android:id="@+id/beginnersubtx_18"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner19"-->
-<!--            android:id="@+id/beginnertx_19"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner20"-->
-<!--            android:id="@+id/beginnertx_20"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner21"-->
-<!--            android:id="@+id/beginnertx_21"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-<!--        <ImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/metronome"-->
-<!--            android:scaleType="centerInside"-->
-<!--            android:padding="10dp">-->
-<!--        </ImageView>-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/beginner22"-->
-<!--            android:id="@+id/beginnertx_22"-->
-<!--            android:textSize="20dp"-->
-<!--            android:layout_marginBottom="10dp">-->
-<!--        </TextView>-->
-
-
-
-
-
-
-
-<!--    </LinearLayout>-->
-
-<!--    </ScrollView>-->
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/backbtn_foreground"
+        android:background="@color/white"
+        android:contentDescription="back"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/backbtn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/beginnertx_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner1"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/acs">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/beginnertx_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner2"
+            android:textAlignment="gravity"
+            android:textSize="20dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elec">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner3"
+            android:id="@+id/beginnertx_3"
+            android:textSize="20dp">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="203dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/strings">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/beginner4"
+            android:id="@+id/beginnertx_4"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner5"
+            android:id="@+id/beginnertx_5"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner6"
+            android:id="@+id/beginnertx_6"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/rhyt">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/beginnertx_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner7"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/beginnertx_7a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner7a"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/beginnertx_7b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner7b"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/beginnertx_7c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner7c"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/beginnertx_7d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner7d"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner9"
+            android:id="@+id/beginnertx_9"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brhyte"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner10"
+            android:id="@+id/beginnertx_10"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/brebeat"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner11"
+            android:id="@+id/beginnertx_11"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            android:src="@drawable/notes"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner12"
+            android:id="@+id/beginnertx_12"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:src="@drawable/mustheo"
+            android:scaleType="centerInside">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner13"
+            android:id="@+id/beginnertx_13"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginnersub_13"
+            android:id="@+id/beginnersubtx_13"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/beginnertx_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginner14"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:src="@drawable/musalp"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/beginnersubtx_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/beginnersub_14"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner15"
+            android:id="@+id/beginnertx_15"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner16"
+            android:id="@+id/beginnertx_16"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner17"
+            android:id="@+id/beginnertx_17"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginnersub_17"
+            android:id="@+id/beginnersubtx_17"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner18"
+            android:id="@+id/beginnertx_18"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginnersub_18"
+            android:id="@+id/beginnersubtx_18"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner19"
+            android:id="@+id/beginnertx_19"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner20"
+            android:id="@+id/beginnertx_20"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner21"
+            android:id="@+id/beginnertx_21"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/metronome"
+            android:scaleType="centerInside"
+            android:padding="10dp">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beginner22"
+            android:id="@+id/beginnertx_22"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
 
