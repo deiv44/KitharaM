@@ -7,19 +7,20 @@
     android:background="@drawable/bg"
     tools:context=".Auth.SignUp">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
-        android:textSize="36sp"
         android:textColor="@color/white"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/card_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
@@ -49,6 +50,7 @@
                 android:layout_width="355dp"
                 android:layout_height="50dp"
                 android:height="50dp"
+                android:maxLength="25"
                 android:autofillHints="emailAddress"
                 android:hint="@string/username"
                 android:inputType="textEmailAddress" />
@@ -65,6 +67,7 @@
                 android:layout_width="355dp"
                 android:layout_height="50dp"
                 android:height="50dp"
+                android:maxLength="100"
                 android:autofillHints="emailAddress"
                 android:hint="@string/example_gmail_com"
                 android:inputType="textEmailAddress" />
@@ -84,6 +87,7 @@
                 android:id="@+id/etpassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:maxLength="25"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
                 android:hint="Password"
@@ -99,6 +103,7 @@
                 android:id="@+id/etConpassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:maxLength="25"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
                 android:hint="Confirm Password"

@@ -51,6 +51,7 @@
                 android:layout_width="355dp"
                 android:layout_height="50dp"
                 android:height="50dp"
+                android:maxLength="25"
                 android:autofillHints="emailAddress"
                 android:hint="@string/username"
                 android:inputType="textEmailAddress" />
@@ -67,6 +68,7 @@
                 android:layout_width="355dp"
                 android:layout_height="50dp"
                 android:height="50dp"
+                android:maxLength="100"
                 android:autofillHints="emailAddress"
                 android:hint="@string/example_gmail_com"
                 android:inputType="textEmailAddress" />
@@ -87,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:autofillHints="Password"
+                android:maxLength="25"
                 android:drawableEnd="@drawable/eye_password"
                 android:hint="Password"
                 android:inputType="textPassword" />
@@ -101,6 +104,7 @@
                 android:id="@+id/etConpassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:maxLength="25"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
                 android:hint="@string/Conpass"

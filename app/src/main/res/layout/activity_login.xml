@@ -60,7 +60,7 @@
                 android:layout_width="355dp"
                 android:layout_height="50dp"
                 android:height="50dp"
-                android:maxLength="25"
+                android:maxLength="100"
                 android:autofillHints="emailAddress"
                 android:hint="@string/example_gmail_com"
                 android:inputType="textEmailAddress" />
