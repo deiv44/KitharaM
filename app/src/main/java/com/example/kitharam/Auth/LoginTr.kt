@@ -70,7 +70,7 @@ class LoginTr : AppCompatActivity() {
                             response.body()?.message,
                             Toast.LENGTH_LONG
                         ).show()
-                        val intent = Intent(applicationContext, UserActivity::class.java)
+                        val intent = Intent(applicationContext, TutorActivity::class.java)
                         startActivity(intent)
                     }else{
                         Toast.makeText(
