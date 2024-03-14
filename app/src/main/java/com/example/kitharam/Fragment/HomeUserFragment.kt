@@ -24,15 +24,15 @@ class HomeUserFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
         val data = listOf(
-            ("beginner"),
-            ("intermediate"),
+            ("Beginner"),
+            ("Intermediate"),
             ("Advanced"),
         ) // Sample data
         val adapter = Adapter(data) { category ->
             val fragment = when (category) {
-                "beginner" -> BeginnerFragment()
-                "intermediate" -> IntermediateFragment()
-                "advanced" -> AdvanceFragment()
+                "Beginner" -> BeginnerFragment()
+                "Intermediate" -> IntermediateFragment()
+                "Advanced" -> AdvanceFragment()
                 else -> null
             }
             fragment?.let {
