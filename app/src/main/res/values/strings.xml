@@ -16,18 +16,17 @@
     <string name="example_gmail_com">example@gmail.com</string>
     <string name="psastiris">*******</string>
     <string name="login">Login</string>
+    <string name="Conpass">Confirm password</string>
     <string name="email_address">Email Address</string>
     <string name="yrinfos">Please login with your account as Student</string>
     <string name="yrinfot">Please login with your account as tutor</string>
     <string name="title_activity_navi">navi</string>
-    <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="home">Home</string>
     <string name="loginpssword">Password</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="already_have_account">Already have account?</string>
     <string name="fpwrd">Forgot Password</string>
