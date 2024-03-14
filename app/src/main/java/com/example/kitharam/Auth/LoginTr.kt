@@ -62,9 +62,9 @@ class LoginTr : AppCompatActivity() {
                 override fun onResponse(
                     call: Call<LoginResponse>,
                     response: Response<LoginResponse>
-                ){
+                ) {
 
-                    if(response.isSuccessful) {
+                    if (response.isSuccessful) {
                         Toast.makeText(
                             applicationContext,
                             response.body()?.message,
@@ -72,14 +72,23 @@ class LoginTr : AppCompatActivity() {
                         ).show()
                         val intent = Intent(applicationContext, TutorActivity::class.java)
                         startActivity(intent)
-                    }else{
+                    } else if (response.errorBody() != null) {
+                        val errorResponse = response.errorBody()?.string()
+                        val errorMessage = errorResponse ?: ""
                         Toast.makeText(
                             applicationContext,
-                            response.body()?.message,
+                            errorMessage,
+                            Toast.LENGTH_LONG
+                        ).show()
+                    } else {
+                        Toast.makeText(
+                            applicationContext,
+                            "Something went wrong.",
                             Toast.LENGTH_LONG
                         ).show()
                     }
                 }
+
                 override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
                     Toast.makeText(
                         applicationContext,
@@ -87,7 +96,6 @@ class LoginTr : AppCompatActivity() {
                         Toast.LENGTH_LONG
                     ).show()
                 }
-
             })
         }
     }

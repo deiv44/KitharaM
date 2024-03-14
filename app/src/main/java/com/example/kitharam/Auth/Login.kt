@@ -66,8 +66,16 @@ class Login : AppCompatActivity() {
                         ).show()
                         val intent = Intent(applicationContext, UserActivity::class.java)
                         startActivity(intent)
+                        startActivity(intent)
 
-
+                    } else if (response.errorBody() != null) {
+                        val errorResponse = response.errorBody()?.string()
+                        val errorMessage = errorResponse ?: "Something went wrong."
+                        Toast.makeText(
+                            applicationContext,
+                            errorMessage,
+                            Toast.LENGTH_LONG
+                        ).show()
                     }else{
                         Toast.makeText(
                             applicationContext,
