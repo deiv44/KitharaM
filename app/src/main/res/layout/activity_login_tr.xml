@@ -80,7 +80,7 @@
                 android:layout_height="50dp"
                 android:autofillHints="Password"
                 android:drawableEnd="@drawable/eye_password"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
 
             <RelativeLayout
@@ -117,12 +117,13 @@
 
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/Login"
+                android:id="@+id/logintr"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/black"
-                android:text="Login"
+                android:text="@string/login"
                 app:cornerRadius="32dp" />
+
 
             <View
                 android:layout_width="wrap_content"
@@ -143,7 +144,7 @@
 
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/signup"
+                    android:id="@+id/signuptr"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:backgroundTint="@color/black"
