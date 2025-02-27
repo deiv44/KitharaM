@@ -1,0 +1,3 @@
+com.example.kitharam.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

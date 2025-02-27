@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202068576832",
+    "project_id": "kithara-fb8a7",
+    "storage_bucket": "kithara-fb8a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202068576832:android:d3dd47ca318058a0ab6da5",
+        "android_client_info": {
+          "package_name": "com.example.kitharam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAprFG-eVbX5BilKRiN3GbCVY-9VCZhKLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.IntermediateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/intermediatetx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate"
+            android:textSize="20sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatesubtx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate_sub"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barrechords"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/intermediatetx_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate2"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barre"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3a"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3b"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3c"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3d"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3e"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_3f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate3f"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate4"
+            android:textSize="20sp">
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dyn"
+            android:scaleType="centerInside">
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate5"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate6"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate6a"
+            android:textAlignment="gravity"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="344dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gsolo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7a"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7b"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7c"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7d"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_7e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate7e"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8a"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8b"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8c"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8d"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8e"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rem"
+            android:scaleType="centerInside">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/intermediatetx_8f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate8f"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9a"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9b"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9c"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9d"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9e"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9f"
+            android:textSize="20sp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/intermediatetx_9g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate9g"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_10a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10a"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_10b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10b"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_10c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10c"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_10d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10d"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_10e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate10e"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/intermediatetx_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate11"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate12"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_12a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate12a"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/intermediatetx_12b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/intermediate12b"
+            android:textSize="20sp">
+        </TextView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

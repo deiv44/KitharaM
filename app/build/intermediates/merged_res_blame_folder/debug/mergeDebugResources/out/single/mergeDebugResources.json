@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_gsolo.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/gsolo.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_chat_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_chat_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-hdpi_backbtn_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-hdpi/backbtn_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_start.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/start.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_acs.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/acs.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_profile_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_profile_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_splashkit.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_splashkit.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_library_books_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_library_books_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_circle_outline_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/circle_outline_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_rem.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/rem.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_profile_tutor.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_profile_tutor.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_chat_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_chat_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_bs.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/bs.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_forgotpass.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_forgotpass.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_item_layout.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/item_layout.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_chords.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/chords.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_login_tr.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_login_tr.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-mdpi_backbtn.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-mdpi/backbtn.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_info_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_info_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/raw_tick_sound.mp3.flat",
+        "source": "com.example.kitharam.app-main-50:/raw/tick_sound.mp3"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxhdpi_backbtn.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxhdpi/backbtn.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-anydpi-v26_backbtn.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-anydpi-v26/backbtn.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_tool_tutor.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_tool_tutor.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_nsam.jpg.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/nsam.jpg"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/menu_studentmenu.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/menu/studentmenu.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_mustheo.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/mustheo.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxxhdpi_backbtn_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxxhdpi/backbtn_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_caged.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/caged.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_menu_book_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_menu_book_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_intermediate.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_intermediate.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_advance.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_advance.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xhdpi_backbtn.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xhdpi/backbtn.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-anydpi-v26_backbtn_round.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-anydpi-v26/backbtn_round.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_barrechords.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/barrechords.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_share_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_share_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_pros.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/pros.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_home_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_home_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_signup_tr.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_signup_tr.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_person_outline_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-hdpi_backbtn.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-hdpi/backbtn.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_arrow_down_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_arrow_down_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_email_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_email_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_elec.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/elec.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_pses.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/pses.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_rhyt.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/rhyt.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_tutor.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_tutor.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_dyn.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/dyn.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_chat_tutor.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_chat_tutor.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_notes.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/notes.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_home_tutor.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_home_tutor.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxxhdpi_backbtn.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxxhdpi/backbtn.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxhdpi_backbtn_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxhdpi/backbtn_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_notifications_none_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_notifications_none_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_strings.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/strings.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/menu_tutormenu.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/menu/tutormenu.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_beginner.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_beginner.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_nms.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/nms.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_bg.jpg.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/bg.jpg"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_brebeat.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/brebeat.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/xml_backup_rules.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_supervised_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/supervised_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_register.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_home_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_home_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_tutor_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_tutor_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_metronome.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/metronome.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_musalp.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/musalp.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_textviewshape.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/textviewshape.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_exit_to_app_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_eye_password.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/eye_password.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_kitlogo.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/kitlogo.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_kyle1.jpg.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/kyle1.jpg"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_backbtn_foreground.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/backbtn_foreground.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-xhdpi_backbtn_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-xhdpi/backbtn_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_fragment_tool_user.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/fragment_tool_user.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_barre.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/barre.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_login.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_msecm.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/msecm.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/mipmap-mdpi_backbtn_round.webp.flat",
+        "source": "com.example.kitharam.app-main-50:/mipmap-mdpi/backbtn_round.webp"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/drawable_brhyte.png.flat",
+        "source": "com.example.kitharam.app-main-50:/drawable/brhyte.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-48:/layout_activity_frontauth.xml.flat",
+        "source": "com.example.kitharam.app-main-50:/layout/activity_frontauth.xml"
+    }
+]

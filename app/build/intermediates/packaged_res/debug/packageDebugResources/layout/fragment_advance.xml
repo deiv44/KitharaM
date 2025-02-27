@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AdvanceFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/advance_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/caged" />
+
+            <TextView
+                android:id="@+id/advance_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance1"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance1a"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance1b"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/msecm" />
+
+
+            <TextView
+                android:id="@+id/advance_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance2"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/nms" />
+
+
+            <TextView
+                android:id="@+id/advance_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance3a"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance3b"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance3c"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/nsam" />
+
+
+            <TextView
+                android:id="@+id/advance_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance4"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance4a"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance4b"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5a"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5b"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/advance_5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5c"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5d"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_5e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5e"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance5f"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/pses" />
+
+            <TextView
+                android:id="@+id/advance_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6a"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6b"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6c"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6d"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6e"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_6f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance6e"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/bs" />
+
+
+            <TextView
+                android:id="@+id/advance_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance7a"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance7b"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/advance_7c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/advance7c"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
