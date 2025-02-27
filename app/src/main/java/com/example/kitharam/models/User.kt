@@ -7,3 +7,5 @@ data class User(
     val txtTitle: String = "",
     val txtDescription: String = ""// New field to determine the user's level
 )
+
+

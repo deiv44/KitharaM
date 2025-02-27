@@ -125,6 +125,7 @@ id beginnertx_7d
 id beginnertx_9
 id bottom_navigationuser
 id btnBack
+id btnForgotPassword
 id btnResetPassword
 id btnSaveAboutMe
 id btnSignup
@@ -140,7 +141,7 @@ id etEmail
 id etemail
 id etpassword
 id etusername
-id forgot
+id forgot_fragment_container
 id frameTutor
 id frameUser
 id headerTitle
@@ -225,6 +226,7 @@ id trprofile
 id trtool
 id txtEmail
 id txtUsername
+layout activity_forgot_pass
 layout activity_frontauth
 layout activity_login
 layout activity_login_tr

@@ -93,7 +93,7 @@ class ProfileUserFragment : Fragment() {
         val aboutMeText = aboutMeEditText.text.toString()
         val data = hashMapOf("aboutMe" to aboutMeText)
 
-        firestore.collection("users").document(userId)
+        firestore.collection("prooile").document(userId)
             .set(data, SetOptions.merge())
             .addOnSuccessListener {
                 // Optionally notify the user that the update was successful (e.g., with a Toast)

@@ -1,5 +1,6 @@
 package com.example.kitharam.Auth
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -16,8 +17,10 @@ class Login : AppCompatActivity() {
     private lateinit var etpassword: EditText
     private lateinit var btnlogin: Button
     private lateinit var btnsignup: Button
+    private lateinit var btnForgotPassword: Button
     private lateinit var auth: FirebaseAuth
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -26,6 +29,7 @@ class Login : AppCompatActivity() {
         etpassword = findViewById(R.id.etpassword)
         btnlogin = findViewById(R.id.login)
         btnsignup = findViewById(R.id.signup)
+        btnForgotPassword = findViewById(R.id.btnForgotPassword)  // Make sure this ID exists in your layout
 
         auth = FirebaseAuth.getInstance()
 
@@ -43,7 +47,6 @@ class Login : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Firebase Authentication for login
             auth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
@@ -56,5 +59,14 @@ class Login : AppCompatActivity() {
                     }
                 }
         }
+
+        // Set the forgot password button to navigate to ForgotPassActivity
+        // Inside your Login.kt onCreate()
+        btnForgotPassword.setOnClickListener {
+            val intent = Intent(this, ForgotPassActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

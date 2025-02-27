@@ -24,6 +24,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnForgotPassword;
+
+  @NonNull
   public final CardView cardView;
 
   @NonNull
@@ -31,9 +34,6 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   @NonNull
   public final TextInputEditText etpassword;
-
-  @NonNull
-  public final Button forgot;
 
   @NonNull
   public final MaterialButton login;
@@ -44,15 +44,15 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnForgotPassword, @NonNull CardView cardView,
       @NonNull TextInputEditText etemail, @NonNull TextInputEditText etpassword,
-      @NonNull Button forgot, @NonNull MaterialButton login, @NonNull MaterialButton signup,
-      @NonNull TextView textView) {
+      @NonNull MaterialButton login, @NonNull MaterialButton signup, @NonNull TextView textView) {
     this.rootView = rootView;
+    this.btnForgotPassword = btnForgotPassword;
     this.cardView = cardView;
     this.etemail = etemail;
     this.etpassword = etpassword;
-    this.forgot = forgot;
     this.login = login;
     this.signup = signup;
     this.textView = textView;
@@ -85,6 +85,12 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnForgotPassword;
+      Button btnForgotPassword = ViewBindings.findChildViewById(rootView, id);
+      if (btnForgotPassword == null) {
+        break missingId;
+      }
+
       id = R.id.card_view;
       CardView cardView = ViewBindings.findChildViewById(rootView, id);
       if (cardView == null) {
@@ -100,12 +106,6 @@ public final class ActivityLoginBinding implements ViewBinding {
       id = R.id.etpassword;
       TextInputEditText etpassword = ViewBindings.findChildViewById(rootView, id);
       if (etpassword == null) {
-        break missingId;
-      }
-
-      id = R.id.forgot;
-      Button forgot = ViewBindings.findChildViewById(rootView, id);
-      if (forgot == null) {
         break missingId;
       }
 
@@ -127,8 +127,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, cardView, etemail, etpassword,
-          forgot, login, signup, textView);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnForgotPassword, cardView,
+          etemail, etpassword, login, signup, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -38,6 +38,9 @@
         android:theme="@style/Theme.KitharaM"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.kitharam.Auth.ForgotPassActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.kitharam.Auth.SignupTr"
             android:exported="false" />
         <activity

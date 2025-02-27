@@ -3420,6 +3420,7 @@ int id browser_actions_menu_item_text 0x7f0800a5
 int id browser_actions_menu_items 0x7f0800a6
 int id browser_actions_menu_view 0x7f0800a7
 int id btnBack 0x7f0802a4
+int id btnForgotPassword 0x7f0802ac
 int id btnResetPassword 0x7f0802aa
 int id btnSaveAboutMe 0x7f0802a8
 int id btnSignup 0x7f0800a8
@@ -3534,7 +3535,7 @@ int id fixed 0x7f080112
 int id flip 0x7f080113
 int id floating 0x7f080114
 int id forever 0x7f080115
-int id forgot 0x7f080116
+int id forgot_fragment_container 0x7f0802ad
 int id fragment_container_view_tag 0x7f080117
 int id frameTutor 0x7f080118
 int id frameUser 0x7f080119
@@ -4049,6 +4050,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_forgot_pass 0x7f0b0086
 int layout activity_frontauth 0x7f0b001c
 int layout activity_login 0x7f0b001d
 int layout activity_login_tr 0x7f0b001e

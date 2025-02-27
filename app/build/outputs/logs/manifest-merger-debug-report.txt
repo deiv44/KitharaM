@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:viewbinding:8.8.0] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\a5554db1e041f46ecf928040f9765f9c\transformed\viewbinding-8.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.2] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\2a37d36630e2a70de5015a6275846130\transformed\ImageSlideshow-0.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\a72d1f22d1a9e35f3e1a0a1b1805f684\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
@@ -138,8 +138,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.2.0] C:
 	android:name
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:6:5-50:19
-INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:6:5-50:19
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:6:5-53:19
+INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:6:5-53:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\2b3a29403dffa2e77677bda0810afc51\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\2b3a29403dffa2e77677bda0810afc51\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Deiv\.gradle\caches\8.10.2\transforms\ff4569001346184736a19099fb0c7025\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -238,70 +238,76 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\Deiv\.gradle\ca
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:8:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:10:9-44
-activity#com.example.kitharam.Auth.SignupTr
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:17:9-19:40
+activity#com.example.kitharam.Auth.ForgotPassActivity
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:17:9-19:39
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:18:13-42
-activity#com.example.kitharam.RegisterActivity
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:18:13-52
+activity#com.example.kitharam.Auth.SignupTr
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:21:13-45
-activity#com.example.kitharam.Auth.LoginTr
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:21:13-42
+activity#com.example.kitharam.RegisterActivity
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:24:13-41
-activity#com.example.kitharam.TutorActivity
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:24:13-45
+activity#com.example.kitharam.Auth.LoginTr
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:27:13-42
-activity#com.example.kitharam.UserActivity
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:27:13-41
+activity#com.example.kitharam.TutorActivity
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:30:13-41
-activity#com.example.kitharam.Frontauth
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:30:13-42
+activity#com.example.kitharam.UserActivity
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:33:13-38
-activity#com.example.kitharam.Auth.SignUp
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:33:13-41
+activity#com.example.kitharam.Frontauth
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:36:13-40
-activity#com.example.kitharam.Auth.Login
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:36:13-38
+activity#com.example.kitharam.Auth.SignUp
 ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:39:13-39
-activity#com.example.kitharam.Splashkit
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:41:9-49:20
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:39:13-40
+activity#com.example.kitharam.Auth.Login
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:42:13-38
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:42:13-39
+activity#com.example.kitharam.Splashkit
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:44:9-52:20
+	android:exported
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:45:13-38
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml:50:27-74
 uses-sdk
 INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Deiv\Documents\GitHub\KitharaM\app\src\main\AndroidManifest.xml
