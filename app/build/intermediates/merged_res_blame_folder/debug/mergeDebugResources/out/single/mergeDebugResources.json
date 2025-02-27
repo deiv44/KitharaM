@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\mipmap-xxxhdpi\\backbtn_round.webp"
     },
     {
-        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_baseline_library_books_24.xml.flat",
-        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\drawable\\baseline_library_books_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_textviewshape.xml.flat",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\drawable\\textviewshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_baseline_library_books_24.xml.flat",
+        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\drawable\\baseline_library_books_24.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\color_red.xml.flat",
@@ -38,10 +38,6 @@
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_rem.png.flat",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\drawable\\rem.png"
-    },
-    {
-        "merged": "com.example.kitharam.app-debug-59:/layout_fragment_forgotpass.xml.flat",
-        "source": "com.example.kitharam.app-main-61:/layout/fragment_forgotpass.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\layout_fragment_profile_tutor.xml.flat",
@@ -244,12 +240,20 @@
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\activity_user.xml"
     },
     {
+        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\layout_activity_forgot_pass.xml.flat",
+        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\activity_forgot_pass.xml"
+    },
+    {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_gsolo.png.flat",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\drawable\\gsolo.png"
+    },
+    {
+        "merged": "com.example.kitharam.app-debug-59:/layout_fragment_home_user.xml.flat",
+        "source": "com.example.kitharam.app-main-61:/layout/fragment_home_user.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-debug-59:\\drawable_mustheo.png.flat",

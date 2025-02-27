@@ -1,24 +1,22 @@
 package com.example.kitharam.Auth
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.kitharam.R
+import com.google.android.material.button.MaterialButton
+import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
 class ForgotpassFragment : Fragment() {
 
     private lateinit var auth: FirebaseAuth
-    private lateinit var emailEditText: EditText
-    private lateinit var resetPasswordButton: Button
+    private lateinit var emailEditText: TextInputEditText
+    private lateinit var resetPasswordButton: MaterialButton
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -29,15 +27,14 @@ class ForgotpassFragment : Fragment() {
         // Initialize FirebaseAuth
         auth = FirebaseAuth.getInstance()
 
-        // Get references to UI elements
+        // Bind UI elements using the IDs from your XML
         emailEditText = view.findViewById(R.id.etEmail)
         resetPasswordButton = view.findViewById(R.id.btnResetPassword)
 
-        // Set up click listener for the reset button
+        // Set up click listener for reset button
         resetPasswordButton.setOnClickListener {
             val email = emailEditText.text.toString().trim()
             if (email.isNotEmpty()) {
-                // Send a password reset email using Firebase Authentication
                 auth.sendPasswordResetEmail(email)
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
@@ -50,7 +47,6 @@ class ForgotpassFragment : Fragment() {
                 Toast.makeText(requireContext(), "Please enter your email", Toast.LENGTH_LONG).show()
             }
         }
-
         return view
     }
 }

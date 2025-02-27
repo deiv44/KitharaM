@@ -8,16 +8,16 @@
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\activity_splashkit.xml"
     },
     {
-        "merged": "com.example.kitharam.app-mergeDebugResources-58:/layout/fragment_forgotpass.xml",
-        "source": "com.example.kitharam.app-main-61:/layout/fragment_forgotpass.xml"
-    },
-    {
-        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\fragment_home_user.xml",
-        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\fragment_home_user.xml"
+        "merged": "com.example.kitharam.app-mergeDebugResources-58:/layout/fragment_home_user.xml",
+        "source": "com.example.kitharam.app-main-61:/layout/fragment_home_user.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\item_user.xml",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\fragment_home_user.xml",
+        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\fragment_home_user.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\fragment_beginner.xml",
@@ -42,6 +42,10 @@
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\fragment_advance.xml",
         "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\fragment_advance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\activity_forgot_pass.xml",
+        "source": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-main-61:\\layout\\activity_forgot_pass.xml"
     },
     {
         "merged": "C:\\Users\\Deiv\\.gradle\\daemon\\8.10.2\\com.example.kitharam.app-mergeDebugResources-58:\\layout\\fragment_tool_user.xml",
