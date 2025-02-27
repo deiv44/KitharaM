@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.kitharam.Auth.Login
 import com.example.kitharam.Auth.LoginTr
-import com.example.kitharam.Auth.SignUp
 
 class Frontauth : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +25,7 @@ class Frontauth : AppCompatActivity() {
             startActivity(intent1)
         }
         signupbttn.setOnClickListener{
-            val intent = Intent(this, Register::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
     }

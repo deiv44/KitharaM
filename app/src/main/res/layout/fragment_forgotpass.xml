@@ -30,7 +30,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/etConpassword"
+                android:id="@+id/etEmail"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:autofillHints="Password"
@@ -43,7 +43,7 @@
 
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnSignup"
+                android:id="@+id/btnResetPassword"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/black"

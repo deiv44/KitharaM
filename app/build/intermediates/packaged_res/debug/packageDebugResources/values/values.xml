@@ -365,7 +365,12 @@ To maintain order on the fretboard, count up notes by half-stepping up from the 
     <string name="first_fragment_label">First Fragment</string>
     <string name="forgot_password">Forgot password</string>
     <string name="fpwrd">Forgot Password</string>
+    <string name="gcm_defaultSenderId" translatable="false">202068576832</string>
     <string name="getmail">Enter you email</string>
+    <string name="google_api_key" translatable="false">AIzaSyAprFG-eVbX5BilKRiN3GbCVY-9VCZhKLY</string>
+    <string name="google_app_id" translatable="false">1:202068576832:android:d3dd47ca318058a0ab6da5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAprFG-eVbX5BilKRiN3GbCVY-9VCZhKLY</string>
+    <string name="google_storage_bucket" translatable="false">kithara-fb8a7.firebasestorage.app</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="intermediate" ns1:ignore="StringEscaping">
@@ -621,6 +626,7 @@ V or D: Pick Upward or Pick Downward - Indicates the direction of your pick stro
     <string name="offer">Offer</string>
     <string name="password">Password</string>
     <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">kithara-fb8a7</string>
     <string name="psastiris">*******</string>
     <string name="re_password">Confirm Password</string>
     <string name="register">Register</string>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kitharam.app-mergeDebugResources-46:/values-land/values-land.xml",
+            "outputFile": "com.example.kitharam.app-mergeDebugResources-57:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\25d7fb3c67abbbf9e6c1a5dc88597a25\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\3efa4248cfdc87d3869b3b9d9bdfaf75\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\458419a21acb7734741579497b8fb3a5\\transformed\\material-1.11.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\2b3a29403dffa2e77677bda0810afc51\\transformed\\material-1.11.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

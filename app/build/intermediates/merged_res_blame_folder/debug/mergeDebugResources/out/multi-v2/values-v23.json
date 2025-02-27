@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kitharam.app-mergeDebugResources-46:/values-v23/values-v23.xml",
+            "outputFile": "com.example.kitharam.app-mergeDebugResources-57:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\25d7fb3c67abbbf9e6c1a5dc88597a25\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\3efa4248cfdc87d3869b3b9d9bdfaf75\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\923ca3340bb23ec456eaae944fd0da05\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\d93654c5922733b6d35f3aff802de14d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\458419a21acb7734741579497b8fb3a5\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\2b3a29403dffa2e77677bda0810afc51\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
