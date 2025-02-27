@@ -4,6 +4,7 @@ package com.example.kitharam.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -103,6 +104,9 @@ public final class FragmentBeginnerBinding implements ViewBinding {
   @NonNull
   public final TextView beginnertx9;
 
+  @NonNull
+  public final Button btnBack;
+
   private FragmentBeginnerBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView beginnersubtx13, @NonNull TextView beginnersubtx14,
       @NonNull TextView beginnersubtx17, @NonNull TextView beginnersubtx18,
@@ -115,8 +119,8 @@ public final class FragmentBeginnerBinding implements ViewBinding {
       @NonNull TextView beginnertx22, @NonNull TextView beginnertx3, @NonNull TextView beginnertx4,
       @NonNull TextView beginnertx5, @NonNull TextView beginnertx6, @NonNull TextView beginnertx7,
       @NonNull TextView beginnertx7a, @NonNull TextView beginnertx7b,
-      @NonNull TextView beginnertx7c, @NonNull TextView beginnertx7d,
-      @NonNull TextView beginnertx9) {
+      @NonNull TextView beginnertx7c, @NonNull TextView beginnertx7d, @NonNull TextView beginnertx9,
+      @NonNull Button btnBack) {
     this.rootView = rootView;
     this.beginnersubtx13 = beginnersubtx13;
     this.beginnersubtx14 = beginnersubtx14;
@@ -146,6 +150,7 @@ public final class FragmentBeginnerBinding implements ViewBinding {
     this.beginnertx7c = beginnertx7c;
     this.beginnertx7d = beginnertx7d;
     this.beginnertx9 = beginnertx9;
+    this.btnBack = btnBack;
   }
 
   @Override
@@ -343,12 +348,18 @@ public final class FragmentBeginnerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnBack;
+      Button btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
       return new FragmentBeginnerBinding((RelativeLayout) rootView, beginnersubtx13,
           beginnersubtx14, beginnersubtx17, beginnersubtx18, beginnertx1, beginnertx10,
           beginnertx11, beginnertx12, beginnertx13, beginnertx14, beginnertx15, beginnertx16,
           beginnertx17, beginnertx18, beginnertx19, beginnertx20, beginnertx21, beginnertx22,
           beginnertx3, beginnertx4, beginnertx5, beginnertx6, beginnertx7, beginnertx7a,
-          beginnertx7b, beginnertx7c, beginnertx7d, beginnertx9);
+          beginnertx7b, beginnertx7c, beginnertx7d, beginnertx9, btnBack);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

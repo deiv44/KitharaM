@@ -4,6 +4,7 @@ package com.example.kitharam.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -18,6 +19,9 @@ import java.lang.String;
 public final class FragmentIntermediateBinding implements ViewBinding {
   @NonNull
   private final RelativeLayout rootView;
+
+  @NonNull
+  public final Button btnBack;
 
   @NonNull
   public final TextView intermediatesubtx;
@@ -157,7 +161,7 @@ public final class FragmentIntermediateBinding implements ViewBinding {
   @NonNull
   public final TextView intermediatetx9g;
 
-  private FragmentIntermediateBinding(@NonNull RelativeLayout rootView,
+  private FragmentIntermediateBinding(@NonNull RelativeLayout rootView, @NonNull Button btnBack,
       @NonNull TextView intermediatesubtx, @NonNull TextView intermediatetx,
       @NonNull TextView intermediatetx1, @NonNull TextView intermediatetx10,
       @NonNull TextView intermediatetx10a, @NonNull TextView intermediatetx10b,
@@ -182,6 +186,7 @@ public final class FragmentIntermediateBinding implements ViewBinding {
       @NonNull TextView intermediatetx9d, @NonNull TextView intermediatetx9e,
       @NonNull TextView intermediatetx9f, @NonNull TextView intermediatetx9g) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
     this.intermediatesubtx = intermediatesubtx;
     this.intermediatetx = intermediatetx;
     this.intermediatetx1 = intermediatetx1;
@@ -257,6 +262,12 @@ public final class FragmentIntermediateBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBack;
+      Button btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
       id = R.id.intermediatesubtx;
       TextView intermediatesubtx = ViewBindings.findChildViewById(rootView, id);
       if (intermediatesubtx == null) {
@@ -533,7 +544,7 @@ public final class FragmentIntermediateBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentIntermediateBinding((RelativeLayout) rootView, intermediatesubtx,
+      return new FragmentIntermediateBinding((RelativeLayout) rootView, btnBack, intermediatesubtx,
           intermediatetx, intermediatetx1, intermediatetx10, intermediatetx10a, intermediatetx10b,
           intermediatetx10c, intermediatetx10d, intermediatetx10e, intermediatetx11,
           intermediatetx12, intermediatetx12a, intermediatetx12b, intermediatetx2, intermediatetx3,

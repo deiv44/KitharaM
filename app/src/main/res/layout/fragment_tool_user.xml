@@ -6,11 +6,25 @@
     android:background="@color/white"
     tools:context=".Fragment.ToolUserFragment">
 
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tool"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
     <TextView
         android:id="@+id/tempoLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tempo: 120 BPM"
+        android:layout_below="@id/headerTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"/>
 

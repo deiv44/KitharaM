@@ -1,99 +1,60 @@
 package com.example.kitharam.Auth
 
-import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
-import android.os.UserHandle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kitharam.Frontauth
 import com.example.kitharam.R
-import com.example.kitharam.api.DefaultResponse
-import com.example.kitharam.api.RetrofitClient
-import com.example.kitharam.api.User
 import com.example.kitharam.databinding.ActivitySignUpBinding
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-
+import com.google.firebase.auth.FirebaseAuth
 
 class SignUp : AppCompatActivity() {
 
-        private lateinit var binding: ActivitySignUpBinding
+    private lateinit var binding: ActivitySignUpBinding
+    private lateinit var auth: FirebaseAuth
 
-        private lateinit var etUsername: EditText
-        private lateinit var etEmail: EditText
-        private lateinit var etPassword: EditText
-        private lateinit var etConfirmation: EditText
-        private lateinit var btnlogin: Button
-        private lateinit var btnSignUp: Button
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
-            binding = ActivitySignUpBinding.inflate(layoutInflater)
-            setContentView(binding.root)
+        auth = FirebaseAuth.getInstance()
 
-            etUsername = findViewById(R.id.etusername)
-            etEmail = findViewById(R.id.etemail)
-            etPassword = findViewById(R.id.etpassword)
-            etConfirmation = findViewById(R.id.etConpassword)
-            btnlogin = findViewById(R.id.btnlogin)
-            btnSignUp = findViewById(R.id.btnSignup)
+        binding.btnlogin.setOnClickListener {
+            val intent = Intent(this, Frontauth::class.java)
+            startActivity(intent)
+        }
 
-            btnlogin.setOnClickListener {
-                val intent = Intent(this, Frontauth::class.java)
-                startActivity(intent)
+        binding.btnSignup.setOnClickListener {
+            val name = binding.etusername.text.toString().trim()
+            val email = binding.etemail.text.toString().trim()
+            val password = binding.etpassword.text.toString().trim()
+            val cpassword = binding.etConpassword.text.toString().trim()
+
+            if (name.isEmpty() || email.isEmpty() || password.isEmpty() || cpassword.isEmpty()) {
+                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
 
-            btnSignUp.setOnClickListener {
-
-                val name = etUsername.text.toString().trim()
-                val email = etEmail.text.toString().trim()
-                val password = etPassword.text.toString().trim()
-                val cpassword = etConfirmation.text.toString().trim()
-
-                if (name.isEmpty() || email.isEmpty() || password.isEmpty() || cpassword.isEmpty()) {
-                    Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
-                }
-
-                if (password != cpassword) {
-                    Toast.makeText(this, "Password do not match", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
-                }
-
-                RetrofitClient.instance.register(name, email, password, cpassword)
-                    .enqueue(object : Callback<DefaultResponse> {
-                        override fun onResponse(
-                            call: Call<DefaultResponse>,
-                            response: Response<DefaultResponse>
-                        ) {
-                            if (response.isSuccessful) {
-                                Toast.makeText(
-                                    applicationContext,
-                                    response.body()?.message,
-                                    Toast.LENGTH_LONG
-                                ).show()
-                            } else {
-                                val errorMessage = response.errorBody()?.string() ?: "Unknown error"
-                                Toast.makeText(applicationContext, errorMessage, Toast.LENGTH_LONG)
-                                    .show()
-                            }
-                        }
-
-                        override fun onFailure(call: Call<DefaultResponse>, t: Throwable) {
-                            Toast.makeText(
-                                applicationContext,
-                                "Email Already Exist",
-                                Toast.LENGTH_LONG
-                            ).show()
-                        }
-
-                    })
+            if (password != cpassword) {
+                Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
             }
+
+            // Firebase Authentication - Register User
+            auth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show()
+                        startActivity(Intent(this, Frontauth::class.java))
+                        finish()
+                    } else {
+                        Toast.makeText(this, "Registration Failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                    }
+                }
         }
     }
-
-
+}

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kitharam.app-mergeDebugResources-46:/values-port/values-port.xml",
+            "outputFile": "com.example.kitharam.app-mergeDebugResources-57:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\25d7fb3c67abbbf9e6c1a5dc88597a25\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Deiv\\.gradle\\caches\\8.10.2\\transforms\\3efa4248cfdc87d3869b3b9d9bdfaf75\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

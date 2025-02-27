@@ -7,7 +7,6 @@
     android:background="@color/white"
     tools:context=".Fragment.HomeUserFragment">
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="350dp"
@@ -27,13 +26,8 @@
             app:iss_delay="2000"
             app:iss_no_dots="true"
             app:iss_period="2000"
-            app:iss_text_align="CENTER">
-
-        </com.denzcoskun.imageslider.ImageSlider>
-
+            app:iss_text_align="CENTER" />
     </androidx.cardview.widget.CardView>
-
-
 
     <TextView
         android:id="@+id/textvwhome1"
@@ -48,25 +42,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
-    <LinearLayout
-        android:layout_width="341dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
         android:layout_height="354dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textvwhome1">
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/RecyclerView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        app:layout_constraintTop_toBottomOf="@id/textvwhome1" />
 
-
-        </androidx.recyclerview.widget.RecyclerView>
-
-
-    </LinearLayout>
-
+    <!-- Fragment container for replacing fragments -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

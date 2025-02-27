@@ -22,6 +22,9 @@ public final class FragmentToolUserBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final TextView headerTitle;
+
+  @NonNull
   public final Button startStopButton;
 
   @NonNull
@@ -30,9 +33,11 @@ public final class FragmentToolUserBinding implements ViewBinding {
   @NonNull
   public final SeekBar tempoSeekBar;
 
-  private FragmentToolUserBinding(@NonNull RelativeLayout rootView, @NonNull Button startStopButton,
-      @NonNull TextView tempoLabel, @NonNull SeekBar tempoSeekBar) {
+  private FragmentToolUserBinding(@NonNull RelativeLayout rootView, @NonNull TextView headerTitle,
+      @NonNull Button startStopButton, @NonNull TextView tempoLabel,
+      @NonNull SeekBar tempoSeekBar) {
     this.rootView = rootView;
+    this.headerTitle = headerTitle;
     this.startStopButton = startStopButton;
     this.tempoLabel = tempoLabel;
     this.tempoSeekBar = tempoSeekBar;
@@ -65,6 +70,12 @@ public final class FragmentToolUserBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.headerTitle;
+      TextView headerTitle = ViewBindings.findChildViewById(rootView, id);
+      if (headerTitle == null) {
+        break missingId;
+      }
+
       id = R.id.startStopButton;
       Button startStopButton = ViewBindings.findChildViewById(rootView, id);
       if (startStopButton == null) {
@@ -83,8 +94,8 @@ public final class FragmentToolUserBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentToolUserBinding((RelativeLayout) rootView, startStopButton, tempoLabel,
-          tempoSeekBar);
+      return new FragmentToolUserBinding((RelativeLayout) rootView, headerTitle, startStopButton,
+          tempoLabel, tempoSeekBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

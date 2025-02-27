@@ -5,9 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,25 +22,34 @@ public final class FragmentProfileUserBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final Button btnSaveAboutMe;
+
+  @NonNull
   public final Button bttnlogout;
 
   @NonNull
-  public final LinearLayout personalinfo;
+  public final EditText editAboutMe;
 
   @NonNull
   public final TextView personalinfobtn;
 
   @NonNull
-  public final ScrollView scrool;
+  public final TextView profileEmailTextView;
 
-  private FragmentProfileUserBinding(@NonNull RelativeLayout rootView, @NonNull Button bttnlogout,
-      @NonNull LinearLayout personalinfo, @NonNull TextView personalinfobtn,
-      @NonNull ScrollView scrool) {
+  @NonNull
+  public final TextView profileNameTextView;
+
+  private FragmentProfileUserBinding(@NonNull RelativeLayout rootView,
+      @NonNull Button btnSaveAboutMe, @NonNull Button bttnlogout, @NonNull EditText editAboutMe,
+      @NonNull TextView personalinfobtn, @NonNull TextView profileEmailTextView,
+      @NonNull TextView profileNameTextView) {
     this.rootView = rootView;
+    this.btnSaveAboutMe = btnSaveAboutMe;
     this.bttnlogout = bttnlogout;
-    this.personalinfo = personalinfo;
+    this.editAboutMe = editAboutMe;
     this.personalinfobtn = personalinfobtn;
-    this.scrool = scrool;
+    this.profileEmailTextView = profileEmailTextView;
+    this.profileNameTextView = profileNameTextView;
   }
 
   @Override
@@ -71,15 +79,21 @@ public final class FragmentProfileUserBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnSaveAboutMe;
+      Button btnSaveAboutMe = ViewBindings.findChildViewById(rootView, id);
+      if (btnSaveAboutMe == null) {
+        break missingId;
+      }
+
       id = R.id.bttnlogout;
       Button bttnlogout = ViewBindings.findChildViewById(rootView, id);
       if (bttnlogout == null) {
         break missingId;
       }
 
-      id = R.id.personalinfo;
-      LinearLayout personalinfo = ViewBindings.findChildViewById(rootView, id);
-      if (personalinfo == null) {
+      id = R.id.editAboutMe;
+      EditText editAboutMe = ViewBindings.findChildViewById(rootView, id);
+      if (editAboutMe == null) {
         break missingId;
       }
 
@@ -89,14 +103,20 @@ public final class FragmentProfileUserBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.scrool;
-      ScrollView scrool = ViewBindings.findChildViewById(rootView, id);
-      if (scrool == null) {
+      id = R.id.profileEmailTextView;
+      TextView profileEmailTextView = ViewBindings.findChildViewById(rootView, id);
+      if (profileEmailTextView == null) {
         break missingId;
       }
 
-      return new FragmentProfileUserBinding((RelativeLayout) rootView, bttnlogout, personalinfo,
-          personalinfobtn, scrool);
+      id = R.id.profileNameTextView;
+      TextView profileNameTextView = ViewBindings.findChildViewById(rootView, id);
+      if (profileNameTextView == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileUserBinding((RelativeLayout) rootView, btnSaveAboutMe, bttnlogout,
+          editAboutMe, personalinfobtn, profileEmailTextView, profileNameTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

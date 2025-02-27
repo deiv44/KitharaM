@@ -26,7 +26,6 @@ class UserActivity : AppCompatActivity() {
                 when(it.itemId){
                     R.id.sthome->replaceFragment (HomeUserFragment())
                     R.id.sttool->replaceFragment (ToolUserFragment())
-                    R.id.stchat->replaceFragment (ChatUserFragment())
                     R.id.stprofile->replaceFragment (ProfileUserFragment())
 
                     else -> {

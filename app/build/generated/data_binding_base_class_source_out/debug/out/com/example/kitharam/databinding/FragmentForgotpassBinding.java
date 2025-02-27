@@ -21,16 +21,16 @@ public final class FragmentForgotpassBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final MaterialButton btnSignup;
+  public final MaterialButton btnResetPassword;
 
   @NonNull
-  public final EditText etConpassword;
+  public final EditText etEmail;
 
   private FragmentForgotpassBinding(@NonNull FrameLayout rootView,
-      @NonNull MaterialButton btnSignup, @NonNull EditText etConpassword) {
+      @NonNull MaterialButton btnResetPassword, @NonNull EditText etEmail) {
     this.rootView = rootView;
-    this.btnSignup = btnSignup;
-    this.etConpassword = etConpassword;
+    this.btnResetPassword = btnResetPassword;
+    this.etEmail = etEmail;
   }
 
   @Override
@@ -60,19 +60,19 @@ public final class FragmentForgotpassBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnSignup;
-      MaterialButton btnSignup = ViewBindings.findChildViewById(rootView, id);
-      if (btnSignup == null) {
+      id = R.id.btnResetPassword;
+      MaterialButton btnResetPassword = ViewBindings.findChildViewById(rootView, id);
+      if (btnResetPassword == null) {
         break missingId;
       }
 
-      id = R.id.etConpassword;
-      EditText etConpassword = ViewBindings.findChildViewById(rootView, id);
-      if (etConpassword == null) {
+      id = R.id.etEmail;
+      EditText etEmail = ViewBindings.findChildViewById(rootView, id);
+      if (etEmail == null) {
         break missingId;
       }
 
-      return new FragmentForgotpassBinding((FrameLayout) rootView, btnSignup, etConpassword);
+      return new FragmentForgotpassBinding((FrameLayout) rootView, btnResetPassword, etEmail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

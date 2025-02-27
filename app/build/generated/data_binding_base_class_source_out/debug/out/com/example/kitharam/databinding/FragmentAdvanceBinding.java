@@ -4,6 +4,7 @@ package com.example.kitharam.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -109,6 +110,9 @@ public final class FragmentAdvanceBinding implements ViewBinding {
   @NonNull
   public final TextView advance7c;
 
+  @NonNull
+  public final Button btnBack;
+
   private FragmentAdvanceBinding(@NonNull RelativeLayout rootView, @NonNull TextView advance0,
       @NonNull TextView advance1, @NonNull TextView advance1a, @NonNull TextView advance1b,
       @NonNull TextView advance2, @NonNull TextView advance3, @NonNull TextView advance3a,
@@ -119,7 +123,7 @@ public final class FragmentAdvanceBinding implements ViewBinding {
       @NonNull TextView advance6, @NonNull TextView advance6a, @NonNull TextView advance6b,
       @NonNull TextView advance6c, @NonNull TextView advance6d, @NonNull TextView advance6e,
       @NonNull TextView advance6f, @NonNull TextView advance7, @NonNull TextView advance7a,
-      @NonNull TextView advance7b, @NonNull TextView advance7c) {
+      @NonNull TextView advance7b, @NonNull TextView advance7c, @NonNull Button btnBack) {
     this.rootView = rootView;
     this.advance0 = advance0;
     this.advance1 = advance1;
@@ -151,6 +155,7 @@ public final class FragmentAdvanceBinding implements ViewBinding {
     this.advance7a = advance7a;
     this.advance7b = advance7b;
     this.advance7c = advance7c;
+    this.btnBack = btnBack;
   }
 
   @Override
@@ -360,11 +365,17 @@ public final class FragmentAdvanceBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnBack;
+      Button btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
       return new FragmentAdvanceBinding((RelativeLayout) rootView, advance0, advance1, advance1a,
           advance1b, advance2, advance3, advance3a, advance3b, advance3c, advance4, advance4a,
           advance4b, advance5, advance5a, advance5b, advance5c, advance5d, advance5e, advance5f,
           advance6, advance6a, advance6b, advance6c, advance6d, advance6e, advance6f, advance7,
-          advance7a, advance7b, advance7c);
+          advance7a, advance7b, advance7c, btnBack);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

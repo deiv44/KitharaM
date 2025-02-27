@@ -8,6 +8,7 @@ color my_secondary
 color purple_200
 color purple_500
 color purple_700
+color red
 color splash
 color teal_200
 color teal_700
@@ -31,6 +32,7 @@ drawable baseline_settings_24
 drawable baseline_share_24
 drawable baseline_tutor_24
 drawable bg
+drawable border
 drawable brebeat
 drawable brhyte
 drawable bs
@@ -122,6 +124,9 @@ id beginnertx_7c
 id beginnertx_7d
 id beginnertx_9
 id bottom_navigationuser
+id btnBack
+id btnResetPassword
+id btnSaveAboutMe
 id btnSignup
 id btnbeg
 id btnlogin
@@ -129,13 +134,16 @@ id bttnlogout
 id cardView
 id card_view
 id constraintLayout
+id editAboutMe
 id etConpassword
+id etEmail
 id etemail
 id etpassword
 id etusername
 id forgot
 id frameTutor
 id frameUser
+id headerTitle
 id imageView2
 id imageView3
 id image_slider
@@ -192,6 +200,8 @@ id logintr
 id logintutor
 id personalinfo
 id personalinfobtn
+id profileEmailTextView
+id profileNameTextView
 id scrool
 id signup
 id signupbtn
@@ -199,7 +209,6 @@ id signupstudent
 id signuptr
 id signuptutor
 id startStopButton
-id stchat
 id sthome
 id stprofile
 id sttool
@@ -214,6 +223,8 @@ id trchat
 id trhome
 id trprofile
 id trtool
+id txtEmail
+id txtUsername
 layout activity_frontauth
 layout activity_login
 layout activity_login_tr
@@ -236,6 +247,7 @@ layout fragment_profile_user
 layout fragment_tool_tutor
 layout fragment_tool_user
 layout item_layout
+layout item_user
 menu studentmenu
 menu tutormenu
 mipmap backbtn
@@ -312,7 +324,12 @@ string example_gmail_com
 string first_fragment_label
 string forgot_password
 string fpwrd
+string gcm_defaultSenderId
 string getmail
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_blank_fragment
 string home
 string intermediate
@@ -369,6 +386,7 @@ string next
 string offer
 string password
 string previous
+string project_id
 string psastiris
 string re_password
 string register
